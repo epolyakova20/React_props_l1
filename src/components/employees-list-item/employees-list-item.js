@@ -43,7 +43,11 @@ const EmployeesListItem = (props) => {
                     <i className="fas fa-trash"></i>
                 </button>
 
-                <i className="fas fa-star"></i>
+                <i 
+                    className="fas fa-star" 
+                    onClick={onToggleProp}
+                    data-toggle="rise">
+                </i>
             </div>
         </li>
     );
